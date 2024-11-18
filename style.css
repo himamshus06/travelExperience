@@ -1,0 +1,81 @@
+@media (max-width:900px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    
+    html{
+        scroll-behavior: smooth;
+        overflow: scroll;
+    }
+    
+   
+    main{
+        width: 75%;
+        /* background-color: aqua; */
+        padding: 25px;
+        margin: auto; 
+        text-align: justify;
+        
+    }
+
+    
+    h1,h2{
+        text-align: center;
+        margin-top: 10%;
+    }
+
+  
+
+/* CSS */
+.menu-icon {
+    cursor: pointer;
+    font-size: 24px;
+    display: block;
+}
+
+.navbar {
+    display: none; /* Hidden by default */
+    
+}
+
+#navToggle:checked ~ .navbar {
+    display: block; /* Shows the navbar when the checkbox is checked */
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li{
+ list-style-type: none;
+    display: block;
+    background-color: gray;
+   padding: 10px;
+}
+
+.socials ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.socials ul li{
+    list-style-type: none;
+    background-color: gray;
+   padding: 10px;
+}
+
+.backHome{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+}
