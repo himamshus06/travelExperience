@@ -111,6 +111,7 @@ h1,h2{
 .navbar ul li a{
     text-decoration: none;
     color: black;
+   display: block;
 }
 
 .navbar ul li{
