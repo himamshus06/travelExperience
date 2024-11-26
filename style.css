@@ -10,10 +10,6 @@
         overflow: scroll;
     }
 
-   body{
-    background-color: rgb(37, 37, 37);
-    color: rgb(220, 220, 220);
-}
    
     main{
         width: 75%;
@@ -97,6 +93,11 @@ html{
     overflow: scroll;
 }
 
+
+   body{
+    background-color: rgb(37, 37, 37);
+    color: rgb(220, 220, 220);
+}
 
 main{
     width: 75%;
